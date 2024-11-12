@@ -15,3 +15,9 @@
 .navbar-brand {
   font-size: 50px;
 }
+
+.dropdown-menu {
+  top: 100% !important; /* Position the dropdown below the button */
+  left: auto !important; /* Align to the button's left edge */
+  right: 0; /* Adjust for end-alignment */
+}
