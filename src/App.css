@@ -10,6 +10,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  padding-bottom: 0px;
 }
 
 .navbar-brand {
@@ -20,4 +21,16 @@
   top: 100% !important; /* Position the dropdown below the button */
   left: auto !important; /* Align to the button's left edge */
   right: 0; /* Adjust for end-alignment */
+}
+
+.carousel {
+  justify-self: center;
+  width: 850px;
+  margin-top: 100px;
+}
+
+img {
+  width: 850px;
+  height: 530px;
+  padding-bottom: 30px;
 }

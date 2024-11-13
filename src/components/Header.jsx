@@ -1,7 +1,10 @@
 export default function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav
+        className="navbar navbar-expand-lg bg-body-tertiary"
+        style={{ zIndex: 10 }}
+      >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Jorgensen Dog Walking
