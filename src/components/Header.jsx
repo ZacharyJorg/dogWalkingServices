@@ -16,22 +16,27 @@ export default function Header() {
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <i className="bi bi-list"></i>
+              <i className="bi bi-list fs-1"></i>
             </button>
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="#">
-                  Action
+                  About Me
                 </a>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Another action
+                  Reviews
                 </a>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  Rates
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Contact
                 </a>
               </li>
             </ul>

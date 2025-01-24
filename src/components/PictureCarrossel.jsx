@@ -19,7 +19,7 @@ export default function PictureCarrossel() {
           </div>
           <div className="carousel-item">
             <img
-              src="https://firstaidforpets.net/wp-content/uploads/2019/09/AdobeStock_158731172-1080x675.jpeg"
+              src="https://media.istockphoto.com/id/1060529042/photo/young-woman-with-dog.jpg?s=612x612&w=0&k=20&c=s0AlJrCZUUX4EXzwpwxobfUbeqUnghp0FpdHXHx3mpk="
               className="d-block w-100"
               alt="..."
             />
