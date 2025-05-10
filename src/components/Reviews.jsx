@@ -1,9 +1,9 @@
 import { reviews } from "../reviews";
 import { useEffect } from "react";
+import { forwardRef } from "react";
 
-export default function Reviews() {
+ const Reviews = forwardRef((props, ref) => {
   useEffect(() => {
-    // Manually initialize the carousel if needed (in case auto-sliding doesn't work automatically)
     const myCarousel = new window.bootstrap.Carousel(
       document.getElementById("carouselExampleAutoplaying"),
       {
@@ -11,7 +11,7 @@ export default function Reviews() {
         ride: "carousel", // Start the carousel autoplay immediately
       }
     );
-  }, []);
+ }, []);
 
   const reviewCardElements = reviews.map((review, index) => (
     <div
@@ -32,7 +32,7 @@ export default function Reviews() {
   ));
 
   return (
-    <section className="card-reviews">
+    <section className="card-reviews" ref={ref}>
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide"
@@ -66,4 +66,6 @@ export default function Reviews() {
       </div>
     </section>
   );
-}
+});
+
+export default Reviews;
