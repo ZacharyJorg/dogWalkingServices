@@ -5,21 +5,21 @@ export default function PictureCarrossel() {
         <div className="carousel-inner">
           <div className="carousel-item active" style={{ zIndex: 1 }}>
             <img
-              src="https://vippets.net/wp-content/uploads/2018/02/helena-lopes-u4uGoUBxmCE-unsplash-1080x675.webp"
+              src="public/IMG_8754.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://animalmedicinesaustralia.org.au/wp-content/uploads/2019/10/Pet-Report-Cover-1120x630.jpg"
+              src="public/IMG_3010.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://media.istockphoto.com/id/1060529042/photo/young-woman-with-dog.jpg?s=612x612&w=0&k=20&c=s0AlJrCZUUX4EXzwpwxobfUbeqUnghp0FpdHXHx3mpk="
+              src="public/IMG_0986.jpg"
               className="d-block w-100"
               alt="..."
             />

@@ -1,4 +1,6 @@
-export default function Header() {
+
+export default function Header({ onSectionSelect }) {
+
   return (
     <>
       <nav
@@ -19,25 +21,25 @@ export default function Header() {
               <i className="bi bi-list fs-1"></i>
             </button>
             <ul className="dropdown-menu">
-              <li>
-                <a className="dropdown-item" href="#">
+              <li onClick={() => onSectionSelect('about')}>
+                <span className="dropdown-item">
                   About Me
-                </a>
+                </span>
               </li>
-              <li>
-                <a className="dropdown-item" href="#">
+              <li onClick={() => onSectionSelect('reviews')}>
+                <a className="dropdown-item">
                   Reviews
                 </a>
               </li>
-              <li>
-                <a className="dropdown-item" href="#">
+              <li onClick={() => onSectionSelect('rates')}>
+                <span className="dropdown-item">
                   Rates
-                </a>
+                </span>
               </li>
-              <li>
-                <a className="dropdown-item" href="#">
+              <li onClick={() => onSectionSelect('contact')}>
+                <span className="dropdown-item">
                   Contact
-                </a>
+                </span>
               </li>
             </ul>
           </div>

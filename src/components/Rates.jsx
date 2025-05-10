@@ -1,6 +1,6 @@
 export default function Rates() {
   return (
-    <section className="hourly-rates">
+    <section className="rates-info">
       <h3>Here are my Rates:</h3>
       <p>30 min Dog Walk: $25</p>
       <br></br>

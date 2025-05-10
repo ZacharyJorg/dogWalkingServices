@@ -1,7 +1,9 @@
-export default function AboutMe() {
+import { forwardRef } from "react";
+
+const AboutMe = forwardRef((props, ref) => {
   return (
-    <>
-      <div>
+    <section className="about-me" ref={ref}>
+      <p>
         Hello! My name is Zachary Jorgensen, I've been a Temecula resident and
         community member for over 20 years and a dog lover for as long as I can
         remember. The last couple years I found walking to be exponentially
@@ -16,7 +18,9 @@ export default function AboutMe() {
         neighbors by giving their pets their daily enjoyment or even an
         overnight sleeping buddy to help eliveate some of the stressors of
         owning a pet.
-      </div>
-    </>
+      </p>
+    </section>
   );
-}
+});
+
+export default AboutMe;

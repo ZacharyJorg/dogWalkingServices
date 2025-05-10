@@ -14,7 +14,7 @@
 }
 
 .navbar-brand {
-  font-size: 50px;
+  font-size: 2.5vw;
 }
 
 .dropdown-menu {
@@ -23,14 +23,45 @@
   right: 0; /* Adjust for end-alignment */
 }
 
-.carousel {
-  justify-self: center;
-  width: 850px;
+img {
+  width: 400px;
+  height: 800px;
+  padding-bottom: 30px;
+  padding: 5%;
+  margin-top: 10%;
+}
+
+.contact-info {
+  border: 1px black solid;
+  margin: 10px;
+  margin-top: 100px;
+  padding: 25px;
+}
+
+.rates-info {
+  border: 1px black solid;
+  margin: 10px;
+  margin-top: 100px;
+  padding: 25px;
+}
+
+.about-me {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 20px;
   margin-top: 100px;
 }
 
-img {
-  width: 850px;
-  height: 530px;
-  padding-bottom: 30px;
+.card-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px black solid;
+  margin: 10px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.card {
+  margin: 10px;
 }
