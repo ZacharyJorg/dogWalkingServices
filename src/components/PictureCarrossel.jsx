@@ -5,21 +5,21 @@ export default function PictureCarrossel() {
         <div className="carousel-inner">
           <div className="carousel-item active" style={{ zIndex: 1 }}>
             <img
-              src="public/IMG_8754.jpg"
+              src="/anthony_dogs.jpeg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="public/IMG_3010.jpg"
+              src="/IMG_3010.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="public/IMG_0986.jpg"
+              src="/IMG_0986.jpg"
               className="d-block w-100"
               alt="..."
             />

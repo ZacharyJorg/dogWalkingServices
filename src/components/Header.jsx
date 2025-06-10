@@ -11,9 +11,11 @@ export default function Header({ onSectionSelect }) {
           <a className="navbar-brand" href="#">
             Jorgensen Dog Walking
           </a>
-          <div>
+        </div>
+      </nav>
+      <div>
             <button
-              className="btn"
+              className="btn menuButton"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -43,8 +45,6 @@ export default function Header({ onSectionSelect }) {
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
     </>
   );
 }
